@@ -1,7 +1,7 @@
 # ToDo-App
 
 Aplicación web de gestión de tareas desarrollada con **Ruby y Sinatra**.  
-Permite a los usuarios administrar sus tareas personales.
+Permite a los usuarios administrar sus tareas personales.       
 Se emplearon medidas de seguridad contra ataques XSS.
 
 ---
