@@ -1,0 +1,158 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONDO GENERAL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CONTENEDOR */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* TÍTULOS GRANDES */
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: -2px;
+
+    background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #dcdcdc 30%,
+        #b8c1ff 60%,
+        #8b5cf6 100%
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* FORM */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 15px; /* ← esto separa usuario y contraseña */
+}
+
+
+/* INPUT */
+input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #222;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 1rem;
+}
+
+/* BOTONES */
+button {
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #222;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* ITEMS */
+li {
+    color: #ddd6fe;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #222;
+    transition: 0.2s;
+}
+
+li:hover {
+    background-color: #202020;
+}
+
+/* COMPLETADAS */
+.completed {
+    color: #85fd60;
+}
+
+/* BOTONES PEQUEÑOS */
+.small-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+/* LOGOUT */
+.logout {
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.logout a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: white;
+}
+
+/* LINKS LOGIN / REGISTER */
+.link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.link a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: white;
+}
+

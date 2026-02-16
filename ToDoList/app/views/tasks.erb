@@ -1,0 +1,27 @@
+<h1>Mis Tareas</h1>
+
+<form action="/tasks" method="POST">
+  <input type="text" name="title" placeholder="Nueva tarea">
+  <button type="submit">Agregar</button>
+</form>
+
+<ul>
+  <% @tareas.each do |tarea| %>
+    <li class="<%= tarea[:completed] ? 'completed' : '' %>">
+      <span><%= h(tarea[:title]) %></span>
+
+      <div>
+        <form action="/tasks/<%= tarea[:id] %>/toggle" method="POST" style="display:inline;">
+          <button class="small-btn" type="submit">
+            <%= tarea[:completed] ? "↺" : "✔" %>
+          </button>
+        </form>
+
+        <form action="/tasks/<%= tarea[:id] %>/delete" method="POST" style="display:inline;">
+          <button class="small-btn" type="submit">✖</button>
+        </form>
+      </div>
+    </li>
+  <% end %>
+</ul>
+
