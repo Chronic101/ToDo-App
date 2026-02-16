@@ -10,3 +10,18 @@ Permite a los usuarios registrarse, iniciar sesión y administrar sus tareas per
 - Ruby
 - Sinatra
 - ERB
+
+
+---
+
+## ⚙️ Instalación y uso
+
+```bash
+git clone https://github.com/Chronic101/ToDo-App.git
+cd ToDo-App
+bundle install
+cd ToDoList
+ruby app.rb
+```
+## La aplicación estara disponible en http://localhost:4567
+
