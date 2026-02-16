@@ -23,5 +23,9 @@ bundle install
 cd ToDoList
 ruby app.rb
 ```
-## La aplicación estara disponible en http://localhost:4567
+---
+
+```bash
+La aplicación estara disponible en http://localhost:4567
+```
 
