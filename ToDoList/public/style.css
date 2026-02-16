@@ -1,11 +1,9 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* FONDO GENERAL */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #0d0d0d;
@@ -16,14 +14,12 @@ body {
     min-height: 100vh;
 }
 
-/* CONTENEDOR */
 .container {
     width: 100%;
     max-width: 800px;
     padding: 20px;
 }
 
-/* TÍTULOS GRANDES */
 h1 {
     font-size: 5rem;
     font-weight: 800;
@@ -45,16 +41,14 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-/* FORM */
 form {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    gap: 15px; /* ← esto separa usuario y contraseña */
+    gap: 15px;
 }
 
 
-/* INPUT */
 input {
     flex: 1;
     padding: 14px;
@@ -65,7 +59,6 @@ input {
     font-size: 1rem;
 }
 
-/* BOTONES */
 button {
     font-family: 'Poppins', sans-serif;
     padding: 14px 20px;
@@ -84,13 +77,11 @@ button:hover {
     background-color: #333;
 }
 
-/* LISTA */
 ul {
     list-style: none;
     margin-top: 20px;
 }
 
-/* ITEMS */
 li {
     color: #ddd6fe;
     font-family: 'Poppins', sans-serif;
@@ -109,19 +100,16 @@ li:hover {
     background-color: #202020;
 }
 
-/* COMPLETADAS */
 .completed {
     color: #85fd60;
 }
 
-/* BOTONES PEQUEÑOS */
 .small-btn {
     padding: 6px 12px;
     font-size: 0.8rem;
     margin-left: 5px;
 }
 
-/* LOGOUT */
 .logout {
     font-family: 'Poppins', sans-serif;
     text-align: right;
@@ -139,7 +127,6 @@ li:hover {
     color: white;
 }
 
-/* LINKS LOGIN / REGISTER */
 .link {
     text-align: center;
     margin-top: 15px;
@@ -155,4 +142,5 @@ li:hover {
 .link a:hover {
     color: white;
 }
+
 
